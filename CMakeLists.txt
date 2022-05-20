@@ -39,6 +39,7 @@ set(example_programs    built_inLiteral
     stringNumericConversion
     templateClassTemplate
     override
+    unorderedOrderedContainerPerformance
     stringConstructor
     operatorOverloadingCall
     perfectForwarding
@@ -46,10 +47,12 @@ set(example_programs    built_inLiteral
     explicit
     IOStreamsInOut
     dotProduct
+    callableUnitFunctionObject
     rawString
     stringComparisoConcatenation
     methodThisPointer
     stlAlgorithmsTransform
+    callableUnitLambaFunction
     delete
     templateDefaultArguments
     typeTraitsGcd
@@ -58,12 +61,14 @@ set(example_programs    built_inLiteral
     templateSpecializationTypeTraits
     uniformInitialization
     singleton
+    threadLocal
     raii
     methodConstexpr
     methodConst
     lambdaFunctionClosure
     bigArray
     stlAlgorithms
+    stlContainersCommonInterface
     auto
     IOStreamsOutput
     IOStreamsFormatter
@@ -78,14 +83,16 @@ set(example_programs    built_inLiteral
     stringView
     uniquePtr
     mutex
+    containerConstructionDestruction
     rangeBasedForLoop
     safeInitializationCallOnce
     inheritanceAccessRights
     lambdaFunctionGeneric
     constructorInheriting
     autoExplicit
-    threadOperations
+    unorderedSetHashInfo
     stlOrderedAssoziativeContainerAssoziativeArray
+    callableUnitFunction
     destructor
     memberFunctionVirtual
     initializerList
@@ -94,14 +101,15 @@ set(example_programs    built_inLiteral
     templateSpecialization
     typeTraitsTypeCategories
     stringModification
+    typeTraitsFill
     classMemberInitializer
     lambdaFunction
     swap
     memoryAccess
-    threadLifetime
     operatorOverloading
     regexMatch
     userDefinedLiteral
+    stlAlgorithmenAccumulate
     automaticReturnType
     overrideFinal
     classMemberInitializerWidget
@@ -110,15 +118,16 @@ set(example_programs    built_inLiteral
     refactor2
     templateSpecializationFull
     overloadNewAndDelete2
-    stlContainerSearchRange
     constExpression
     functionOverloading
+    regexWordStatistic
     structuredBinding
     operatorOverloadingAssignment
     constructor
     stlAlgorithmsRemove
     sharedPtr
     stlOrderedAssoziativeContainerModify
+    typeModifications
     constExpressionCpp14
     promiseFutureSynchronize
     regexReplace
@@ -141,12 +150,12 @@ set(example_programs    built_inLiteral
     fillGCC
     templateClassTemplateMemberFunctions
     stringCverusC++
+    stlAlgorithmsSearchRange
     templateArgumentDeduction
     regexSearch
     templateTemplateTemplatesParameter
     IOStreamsInputFormatted
     sharedPtrDeleter
-    typeTraitsCopy
     inheritanceAbstractBase
     methodStatic
     constructorExplicit
@@ -156,6 +165,8 @@ set(example_programs    built_inLiteral
     default
     rvalueReference
     lockGuard
+    unorderedMap
+    staticAssert
     asyncLazyEager
     conditionVariable
     stlContainerSize
